@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+
+.blue {
+	background-image: url('http://fly2travel.boardingarea.com/wp-content/uploads/2014/10/Dominos-Pizza-Pie.jpeg');
+	background-size: 100%
+}
+
+.red {
+	background-image: url("http://images.birthdayexpress.com/mgen/90776.jpg?zm=1600,1600,1,0,0");
+	background-size: 100%
+}
+
+.yellow {
+	background-image: url("http://discovermagazine.com/~/media/Images/Issues/2013/June/beer.jpg");
+	background-size: 100%
+}
+
+.brown {
+	background-image: url("http://37.media.tumblr.com/3c3481fcd9975790a5c994fc62cdf329/tumblr_mjojjv4nHJ1s3jdtpo1_1280.jpg");
+	background-size: 50%
+}
