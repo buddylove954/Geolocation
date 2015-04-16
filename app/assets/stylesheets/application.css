@@ -52,3 +52,20 @@
 	color: darkgreen;
 	font-family: "Comic Sans MS";
 }
+
+.artist {
+	float: left;
+	margin-left: 10px;
+
+}
+
+.art {
+	margin-top: 30px;
+	text-align: center;
+
+}
+
+.artimage {
+	width: 200px;
+	height: 200px;
+}

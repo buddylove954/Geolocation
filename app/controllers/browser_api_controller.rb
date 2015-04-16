@@ -10,4 +10,8 @@ class BrowserApiController < ApplicationController
 	def ajax
 		render(:ajax)
 	end
+
+	def spotify
+		render(:spotify)
+	end
 end
