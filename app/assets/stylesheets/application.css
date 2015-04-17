@@ -254,3 +254,24 @@ progress::-moz-progress-bar {
 .albumpic {
 	width: 350px;
 }
+
+.tophead {
+	background-color: lightgrey;
+}
+
+body {
+	background-color: seagreen;
+}
+
+.searchbar {
+	padding: 10px;
+	margin-left: 20px;
+}
+
+.buddy {
+	width: 100px;
+	height: 60px;
+	float: right;
+	margin-right: 30px;
+	margin-top: -30px;
+}
