@@ -234,6 +234,9 @@ progress::-moz-progress-bar {
 
 .songh {
 	text-align: center;
+	font-family: "Comic Sans MS";
+	font-size: 24px;
+	font-style: bold;
 
 }
 
@@ -256,16 +259,16 @@ progress::-moz-progress-bar {
 }
 
 .tophead {
-	background-color: lightgrey;
+	background-color: #0099FF;
 }
 
 body {
-	background-color: seagreen;
+	background-color: white;
 }
 
 .searchbar {
 	padding: 10px;
-	margin-left: 20px;
+	margin-left: 40px;
 }
 
 .buddy {
@@ -274,4 +277,25 @@ body {
 	float: right;
 	margin-right: 30px;
 	margin-top: -30px;
+}
+
+.eddie {
+	width: 300px;
+	height: 200px;
+	border-radius: 20%;
+}
+
+.eddie2 {
+	width: 300px;
+	height: 200px;
+	border-radius: 20%;
+	float: right;
+}
+
+.yellow {
+	width: 150px;
+	height: 100px;
+	border-radius: 40%;
+	float: right;
+	margin-right: 180px;
 }
