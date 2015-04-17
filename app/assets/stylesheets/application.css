@@ -77,7 +77,7 @@
 /*serach css below ------|*/
 
 .widget {
-  width: 300px;
+  width: 350px;
   margin: 10px auto 0;
   border-radius: 5px;
   overflow: hidden;
@@ -234,5 +234,23 @@ progress::-moz-progress-bar {
 
 .songh {
 	text-align: center;
-	
+
+}
+
+.par {
+	margin: 2px;
+	font-style: italic;
+	text-align: center;
+}
+
+.par1 {
+	margin: 2px;
+	font-style: italic;
+	text-align: center;
+	font-style: bold;	
+	font-size: 16px;
+}
+
+.albumpic {
+	width: 350px;
 }
