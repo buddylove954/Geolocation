@@ -14,4 +14,8 @@ class BrowserApiController < ApplicationController
 	def spotify
 		render(:spotify)
 	end
+
+	def search
+		render(:search)
+	end
 end

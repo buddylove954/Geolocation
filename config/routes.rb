@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   get '/ajax' => 'browser_api#ajax'
 
   get '/spotify' => 'browser_api#spotify'
+
+  get 'search' => 'browser_api#search'
 end
