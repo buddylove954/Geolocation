@@ -5,11 +5,16 @@ function fetchTracks (event) {
 
   function handletracks (response) {
   	console.debug('REQUEST FINISH', response);
+    var artistName = response.tracks.items[0].artists[0].name;
+    var trackName = response.tracks.items[0].name;
+    
       $('.par').remove()
       $('.par1').remove()
       $('.albumpic').remove()
-      $('.metadata').prepend( '<p class="par1">' + response.tracks.items[0].artists[0].name +
-       '</p>' + '<p class="par">' + response.tracks.items[0].name + '</p>')
+      $('.metadata').prepend(
+        '<p class="par1">' + artistName + '</p>' +
+        '<p class="par">' + trackName + '</p>'
+      )
       $('.cover').prepend('<img class="albumpic" src="' + response.tracks.items[0].album.images[0].url + '">' )
       $('#audio').attr('src', response.tracks.items[0].preview_url )
   }
